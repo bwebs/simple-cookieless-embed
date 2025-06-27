@@ -56,7 +56,7 @@ export async function POST() {
 
   return NextResponse.json({
     ...client_tokens,
-    navigation_token_ttl: 10,
-    api_token_ttl: 10,
+    // navigation_token_ttl: 10,
+    // api_token_ttl: 10,
   });
 }
